@@ -1,0 +1,4 @@
+source "https://supermarket.chef.io"
+
+cookbook "tomcat"
+cookbook "tomcat_8_wrapper", git: "https://github.com/JackBracken/chef_cookbook_tomcat_8_wrapper"
